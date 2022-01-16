@@ -1,0 +1,1387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-1">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-161"/>
+  <item nodeId="node-1">
+    <command xml:space="preserve">BETA</command>
+    <result xml:space="preserve">A Walk in the Park&#x000A;An Interactive Fiction by Zeya&#x000A;Release 1 / Serial number 220114 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Courtyard&#x000A;You wake up in a daze. Where are you? The breeze is warm but there is something off about the air around you. There are beds of poorly maintained flowers. The grass is green, and the foliage is healthy, so there must be something keeping the plants alive. Moss grows over the stone steps that lead north to a small castle- perhaps one may even call it a large watchtower? &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-2"/>
+      <child nodeId="node-134"/>
+      <child nodeId="node-135"/>
+      <child nodeId="node-136"/>
+      <child nodeId="node-144"/>
+      <child nodeId="node-145"/>
+      <child nodeId="node-148"/>
+      <child nodeId="node-150"/>
+      <child nodeId="node-151"/>
+    </children>
+  </item>
+  <item nodeId="node-2">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Great Hall&#x000A;What is this place? Your eyes quickly dart around the room to make sense of your surroundings. The stone walls make every movement in the room echo. To the north is a large marble archway, the west a door, and the east another entranceway.&#x000A;&#x000A;A door which seems to conceal a special room.&#x000A;&#x000A;You can also see a Jester here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-3"/>
+      <child nodeId="node-63"/>
+      <child nodeId="node-114"/>
+      <child nodeId="node-117"/>
+      <child nodeId="node-155"/>
+      <child nodeId="node-156"/>
+      <child nodeId="node-159"/>
+    </children>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">East Wing&#x000A;A rectangular room. Mostly a kitchen, consisting of a wood burning stove, sink, and lots of counterspace.&#x000A;&#x000A;You can see five apples, two poisonous potatoes, Intricate Bronze Key and a Paper Note here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-4"/>
+      <child nodeId="node-5"/>
+      <child nodeId="node-10"/>
+      <child nodeId="node-19"/>
+      <child nodeId="node-41"/>
+      <child nodeId="node-45"/>
+      <child nodeId="node-48"/>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">take Intricate Bronze Key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-6"/>
+    </children>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Great Hall&#x000A;A long hall with two equally as long tables set on either side of a fire pit. The tables seem to be set as if there were guests to be present tonight. However, the firepit doesn't seem to have been used in ages.&#x000A;&#x000A;A door which seems to conceal a special room.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-7"/>
+    </children>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the Bronze Metal Door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-8"/>
+    </children>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">unlock Bronze Metal Door</command>
+    <result xml:space="preserve">(with Intricate Bronze Key)&#x000A;You unlock the Bronze Metal Door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-9"/>
+    </children>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the Bronze Metal Door)&#x000A;&#x000A;Secret Room&#x000A;A room the size of a broomcloset. Clean of dust unlike the rest of the castle. Someone must be keeping this space clean.&#x000A;&#x000A;A door which leads back to the Great Hall .&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">eat apple</command>
+    <result xml:space="preserve">(first taking the apple)&#x000A;Mm, crisp and refreshing. That made me feel better. (Your current health is now 10.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-11"/>
+      <child nodeId="node-12"/>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">East Wing&#x000A;A rectangular room. Mostly a kitchen, consisting of a wood burning stove, sink, and lots of counterspace.&#x000A;&#x000A;You can see four apples and Intricate Bronze Key here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Great Hall&#x000A;A long hall with two equally as long tables set on either side of a fire pit. The tables seem to be set as if there were guests to be present tonight. However, the firepit doesn't seem to have been used in ages.&#x000A;&#x000A;A door which seems to conceal a special room.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">eat apple</command>
+    <result xml:space="preserve">(first taking the apple)&#x000A;BLEGH! The apple was poisoned! Who could have done this... (Your current health is now 9.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">eat apple</command>
+    <result xml:space="preserve">(first taking the apple)&#x000A;Mm, crisp and refreshing. That made me feel better. (Your current health is now 10.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">eat apple</command>
+    <result xml:space="preserve">(first taking the apple)&#x000A;Mm, crisp and refreshing. That made me feel better. (Your current health is now 10.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">eat apple</command>
+    <result xml:space="preserve">(first taking the apple)&#x000A;Mm, crisp and refreshing. That made me feel better. (Your current health is now 10.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">eat apple</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">take intricate bronze key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-20"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Great Hall&#x000A;A long hall with two equally as long tables set on either side of a fire pit. The tables seem to be set as if there were guests to be present tonight. However, the firepit doesn't seem to have been used in ages.&#x000A;&#x000A;A door which seems to conceal a special room.&#x000A;&#x000A;You can also see a Jester here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the Bronze Metal Door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">unlock bronze metal door</command>
+    <result xml:space="preserve">(with Intricate Bronze Key)&#x000A;You unlock the Bronze Metal Door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the Bronze Metal Door)&#x000A;&#x000A;Secret Room&#x000A;A room the size of a broomcloset. Clean of dust unlike the rest of the castle. Someone must be keeping this space clean.&#x000A;&#x000A;A door which leads back to the Great Hall.&#x000A;&#x000A;You can also see a Scarlett Book and a Blessing of the Gods here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-24"/>
+      <child nodeId="node-26"/>
+      <child nodeId="node-37"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">examine scarlett book</command>
+    <result xml:space="preserve">You see nothing special about the Scarlett Book.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">read scarlett book</command>
+    <result xml:space="preserve">You read: THE WAY TO BANISH THE WITCH OF THE HOUSE: &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">open crystal boz</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-27"/>
+    </children>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">x Scarlett Book</command>
+    <result xml:space="preserve">A leatherbound, blood colored book which is surprisingly warm to the touch. What happens when you read the contents?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-28"/>
+    </children>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">read scarlett book</command>
+    <result xml:space="preserve">You read: Take the Witch's tea- You must carry the tea with you to prove to her that you know it. Take it, and tell her about it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-29"/>
+    </children>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Secret Room&#x000A;A room the size of a broomcloset. Clean of dust unlike the rest of the castle. Someone must be keeping this space clean.&#x000A;&#x000A;A door which leads back to the Great Hall.&#x000A;&#x000A;You can also see a Scarlett Book and a Witch's Cup of Tea here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-30"/>
+    </children>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">x witch's cup of tea</command>
+    <result xml:space="preserve">A seemingly sour herbal blend of things. You hear whispers coming from the cup.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-31"/>
+    </children>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">take witch's cup of tea</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-32"/>
+    </children>
+  </item>
+  <item nodeId="node-32">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Great Hall&#x000A;A long hall with two equally as long tables set on either side of a fire pit. The tables seem to be set as if there were guests to be present tonight. However, the firepit doesn't seem to have been used in ages.&#x000A;&#x000A;A door which seems to conceal a special room.&#x000A;&#x000A;You can also see a Jester here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-33"/>
+    </children>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Throne Room&#x000A;An immense marble room with stained glass windows. A room too large to make sense from the outside. All colors of light cascade around the room. In the very back is a black velvet throne.&#x000A;&#x000A;You can see a Wicked Witch here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-34"/>
+    </children>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">tell the wicked witch about dogs</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-35"/>
+    </children>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">tell the wicked witch about the witch's tea</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-36"/>
+    </children>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">tell the wicked witch about the witch's tea/the witch's cup of tea</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-37">
+    <command xml:space="preserve">take blessing of the gods</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-38"/>
+    </children>
+  </item>
+  <item nodeId="node-38">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Great Hall&#x000A;A long hall with two equally as long tables set on either side of a fire pit. The tables seem to be set as if there were guests to be present tonight. However, the firepit doesn't seem to have been used in ages.&#x000A;&#x000A;A door which seems to conceal a special room.&#x000A;&#x000A;You can also see a Jester here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-39"/>
+    </children>
+  </item>
+  <item nodeId="node-39">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Throne Room&#x000A;An immense marble room with stained glass windows. A room too large to make sense from the outside. All colors of light cascade around the room. In the very back is a black velvet throne.&#x000A;&#x000A;You can see a Wicked Witch here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-40"/>
+    </children>
+  </item>
+  <item nodeId="node-40">
+    <command xml:space="preserve">attack wicked witch</command>
+    <result xml:space="preserve">*** A sudden strength comes over you. Gold and white lights flood the room. You blink and wake up in your bedroom. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">examine intricate bronze key</command>
+    <result xml:space="preserve">Weighted, and crested with fine jewels.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">East Wing&#x000A;A rectangular room. Mostly a kitchen, consisting of a wood burning stove, sink, and lots of counterspace.&#x000A;&#x000A;You can see five apples, Intricate Bronze Key and a Note here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">examine note</command>
+    <result xml:space="preserve">The handwriting is barely legible. You do your best and make out the rushed message: "Rid of the witch. Take the key and READ the Scarlett Book in the room to the WEST of the castle. and don't forget to keep an eye on your VITALS."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-44"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">vitals</command>
+    <result xml:space="preserve">Your current health is 10.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">take apple</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Great Hall&#x000A;A long hall with two equally as long tables set on either side of a fire pit. The tables seem to be set as if there were guests to be present tonight. However, the firepit doesn't seem to have been used in ages.&#x000A;&#x000A;A door which seems to conceal a special room.&#x000A;&#x000A;You can also see a Jester here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-47"/>
+    </children>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">show jester apple</command>
+    <result xml:space="preserve">The Jester is unimpressed.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">take bronze key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-49"/>
+    </children>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Great Hall&#x000A;A long hall with two equally as long tables set on either side of a fire pit. The tables seem to be set as if there were guests to be present tonight. However, the firepit doesn't seem to have been used in ages.&#x000A;&#x000A;A door which seems to conceal a special room.&#x000A;&#x000A;You can also see a Jester here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the Bronze Metal Door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">unlock bronze metal door</command>
+    <result xml:space="preserve">(with Intricate Bronze Key)&#x000A;You unlock the Bronze Metal Door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the Bronze Metal Door)&#x000A;&#x000A;Secret Room&#x000A;A room the size of a broomcloset. Clean of dust unlike the rest of the castle. Someone must be keeping this space clean.&#x000A;&#x000A;A door which leads back to the Great Hall.&#x000A;&#x000A;You can also see a Scarlett Book and a Blessing of the Gods here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">take blessing of the gods</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-54"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Great Hall&#x000A;A long hall with two equally as long tables set on either side of a fire pit. The tables seem to be set as if there were guests to be present tonight. However, the firepit doesn't seem to have been used in ages.&#x000A;&#x000A;A door which seems to conceal a special room.&#x000A;&#x000A;You can also see a Jester here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-55"/>
+    </children>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Throne Room&#x000A;An immense marble room with stained glass windows. A room too large to make sense from the outside. All colors of light cascade around the room. In the very back is a black velvet throne.&#x000A;&#x000A;You can see a Wicked Witch here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-56"/>
+    </children>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">attack wicked witch</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-57"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a Blessing of the Gods&#x000A;  Intricate Bronze Key&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-58"/>
+    </children>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">attack wicked witch</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">eat poisonous potatoes</command>
+    <result xml:space="preserve">You can't use multiple objects with that verb.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-60"/>
+    </children>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">eat poisonous potato</command>
+    <result xml:space="preserve">(first taking the poisonous potato)&#x000A;BLEGH! Why would I do that!? (Your current health is now 8.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-61"/>
+    </children>
+  </item>
+  <item nodeId="node-61">
+    <command xml:space="preserve">eat poisonous potato</command>
+    <result xml:space="preserve">(first taking the poisonous potato)&#x000A;BLEGH! Why would I do that!? (Your current health is now 6.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-62"/>
+    </children>
+  </item>
+  <item nodeId="node-62">
+    <command xml:space="preserve">eat apple</command>
+    <result xml:space="preserve">(first taking the apple)&#x000A;Mm, crisp and refreshing. That made me feel better. (Your current health is now 7.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Throne Room&#x000A;An immense marble room with stained glass windows. A room too large to make sense from the outside. All colors of light cascade around the room. In the very back is a black velvet throne.&#x000A;&#x000A;You can see a Wicked Witch here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-64"/>
+      <child nodeId="node-70"/>
+      <child nodeId="node-86"/>
+      <child nodeId="node-92"/>
+      <child nodeId="node-108"/>
+      <child nodeId="node-111"/>
+      <child nodeId="node-113"/>
+    </children>
+  </item>
+  <item nodeId="node-64">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-65"/>
+    </children>
+  </item>
+  <item nodeId="node-65">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Great Hall&#x000A;A long hall with two equally as long tables set on either side of a fire pit. The tables seem to be set as if there were guests to be present tonight. However, the firepit doesn't seem to have been used in ages.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-66"/>
+    </children>
+  </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-67"/>
+    </children>
+  </item>
+  <item nodeId="node-67">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">East Wing&#x000A;A rectangular room. Mostly a kitchen, consisting of a wood burning stove, sink, and lots of counterspace.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-68"/>
+    </children>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Great Hall&#x000A;A long hall with two equally as long tables set on either side of a fire pit. The tables seem to be set as if there were guests to be present tonight. However, the firepit doesn't seem to have been used in ages.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-69"/>
+    </children>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Secret Room&#x000A;A room the size of a broomcloset. Clean of dust unlike the rest of the castle. Someone must be keeping this space clean.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-70">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Great Hall&#x000A;A long hall. The stone walls make every movement in the room echo. To the north is a large marble archway, the west a door, and the east another entranceway.&#x000A;&#x000A;A door which seems to conceal a special room.&#x000A;&#x000A;You can also see a Jester here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-71"/>
+      <child nodeId="node-160"/>
+    </children>
+  </item>
+  <item nodeId="node-71">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">East Wing&#x000A;A rectangular room. Mostly a kitchen, consisting of a wood burning stove, sink, and lots of counterspace.&#x000A;&#x000A;You can see Intricate Bronze Key here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-72"/>
+    </children>
+  </item>
+  <item nodeId="node-72">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-73"/>
+    </children>
+  </item>
+  <item nodeId="node-73">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Great Hall&#x000A;A long hall with two equally as long tables set on either side of a fire pit. The tables seem to be set as if there were guests to be present tonight. However, the firepit doesn't seem to have been used in ages.&#x000A;&#x000A;A door meant to conceal something. It's shiny with no scratches, marks, or fingerprints. There must be something important behind it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-74"/>
+    </children>
+  </item>
+  <item nodeId="node-74">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the Bronze Metal Door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-75"/>
+    </children>
+  </item>
+  <item nodeId="node-75">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the Bronze Metal Door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-76"/>
+    </children>
+  </item>
+  <item nodeId="node-76">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">East Wing&#x000A;A rectangular room. Mostly a kitchen, consisting of a wood burning stove, sink, and lots of counterspace.&#x000A;&#x000A;You can see Intricate Bronze Key here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-77"/>
+    </children>
+  </item>
+  <item nodeId="node-77">
+    <command xml:space="preserve">pickup Intriate Bronze Key</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-78"/>
+    </children>
+  </item>
+  <item nodeId="node-78">
+    <command xml:space="preserve">take Intricate Bronze Key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-79"/>
+    </children>
+  </item>
+  <item nodeId="node-79">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">East Wing&#x000A;A rectangular room. Mostly a kitchen, consisting of a wood burning stove, sink, and lots of counterspace.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-80"/>
+    </children>
+  </item>
+  <item nodeId="node-80">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Great Hall&#x000A;A long hall with two equally as long tables set on either side of a fire pit. The tables seem to be set as if there were guests to be present tonight. However, the firepit doesn't seem to have been used in ages.&#x000A;&#x000A;A door meant to conceal something. It's shiny with no scratches, marks, or fingerprints. There must be something important behind it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-81"/>
+    </children>
+  </item>
+  <item nodeId="node-81">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the Bronze Metal Door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-82"/>
+    </children>
+  </item>
+  <item nodeId="node-82">
+    <command xml:space="preserve">unlock Bronze Metal Door</command>
+    <result xml:space="preserve">(with Intricate Bronze Key)&#x000A;You unlock the Bronze Metal Door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-83"/>
+    </children>
+  </item>
+  <item nodeId="node-83">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Courtyard&#x000A; Overgrown flowers and mossy stone steps. Nothing too outdone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-84"/>
+    </children>
+  </item>
+  <item nodeId="node-84">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Great Hall&#x000A;A long hall with two equally as long tables set on either side of a fire pit. The tables seem to be set as if there were guests to be present tonight. However, the firepit doesn't seem to have been used in ages.&#x000A;&#x000A;A door meant to conceal something. It's shiny with no scratches, marks, or fingerprints. There must be something important behind it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-85"/>
+    </children>
+  </item>
+  <item nodeId="node-85">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the Bronze Metal Door)&#x000A;&#x000A;Secret Room&#x000A;A room the size of a broomcloset. Clean of dust unlike the rest of the castle. Someone must be keeping this space clean.&#x000A;&#x000A;A door meant to conceal something. It's shiny with no scratches, marks, or fingerprints. There must be something important behind it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-160">
+    <command xml:space="preserve">talk to jester</command>
+    <result xml:space="preserve">The juster jumps at the sight of you. Dear me, I haven't seen another living soul here in DECADES. I'm Eugene. The Jester of the house. Welcome to Fort Granite, our humble abode. Here's ehh- the Jester leans inlittle hint, between the two of us: using the command VITALS usually helps people . That's all.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve">ask the witch what she is doin here</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-87"/>
+    </children>
+  </item>
+  <item nodeId="node-87">
+    <command xml:space="preserve">ask the wicked witch what she is doing here</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-88"/>
+    </children>
+  </item>
+  <item nodeId="node-88">
+    <command xml:space="preserve">ask</command>
+    <result xml:space="preserve">(the Wicked Witch for the Wicked Witch)&#x000A;(the Wicked Witch first taking the Wicked Witch)&#x000A;The Wicked Witch has better things to do.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-89"/>
+    </children>
+  </item>
+  <item nodeId="node-89">
+    <command xml:space="preserve">ask the wicked witch who are you</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-90"/>
+    </children>
+  </item>
+  <item nodeId="node-90">
+    <command xml:space="preserve">ask the wicked witch about who are you</command>
+    <result xml:space="preserve">The Lord of the castle, obviously.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-91"/>
+    </children>
+  </item>
+  <item nodeId="node-91">
+    <command xml:space="preserve">ask the wicked witch about dogs</command>
+    <result xml:space="preserve">*** The Wicked Witch didn't have the time to converse about things like that with you. She snapped your neck before eating you whole. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-92">
+    <command xml:space="preserve">ask who are you</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-93"/>
+    </children>
+  </item>
+  <item nodeId="node-93">
+    <command xml:space="preserve">ask the wicked witch who are you</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-94"/>
+    </children>
+  </item>
+  <item nodeId="node-94">
+    <command xml:space="preserve">ask the wicked witch about who are you</command>
+    <result xml:space="preserve">The Lord of the castle, obviously.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-95"/>
+    </children>
+  </item>
+  <item nodeId="node-95">
+    <command xml:space="preserve">ask the wicked witch about dogs</command>
+    <result xml:space="preserve">I don't care about things like that. She kicks you. (Your current health is now 9.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-96"/>
+    </children>
+  </item>
+  <item nodeId="node-96">
+    <command xml:space="preserve">ask the wicked witch about dogs</command>
+    <result xml:space="preserve">I don't care about things like that. She kicks you. (Your current health is now 8.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-97"/>
+    </children>
+  </item>
+  <item nodeId="node-97">
+    <command xml:space="preserve">ask the wicked witch about dogs</command>
+    <result xml:space="preserve">I don't care about things like that. She kicks you. (Your current health is now 7.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-98"/>
+    </children>
+  </item>
+  <item nodeId="node-98">
+    <command xml:space="preserve">ask the wicked witch about dogs</command>
+    <result xml:space="preserve">I don't care about things like that. She kicks you. (Your current health is now 6.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-99"/>
+    </children>
+  </item>
+  <item nodeId="node-99">
+    <command xml:space="preserve">ask the wicked witch about dogs</command>
+    <result xml:space="preserve">I don't care about things like that. She kicks you. (Your current health is now 5.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-100"/>
+    </children>
+  </item>
+  <item nodeId="node-100">
+    <command xml:space="preserve">ask the wicked witch about dogs</command>
+    <result xml:space="preserve">I don't care about things like that. She kicks you. (Your current health is now 4.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-101"/>
+    </children>
+  </item>
+  <item nodeId="node-101">
+    <command xml:space="preserve">ask the wicked witch about dogs</command>
+    <result xml:space="preserve">I don't care about things like that. She kicks you. (Your current health is now 3.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-102"/>
+    </children>
+  </item>
+  <item nodeId="node-102">
+    <command xml:space="preserve">ask the wicked witch about dogs</command>
+    <result xml:space="preserve">I don't care about things like that. She kicks you. (Your current health is now 2.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-103"/>
+    </children>
+  </item>
+  <item nodeId="node-103">
+    <command xml:space="preserve">ask the wicked witch about dogs</command>
+    <result xml:space="preserve">I don't care about things like that. She kicks you. (Your current health is now 1.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-104"/>
+    </children>
+  </item>
+  <item nodeId="node-104">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-105"/>
+    </children>
+  </item>
+  <item nodeId="node-105">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-106"/>
+    </children>
+  </item>
+  <item nodeId="node-106">
+    <command xml:space="preserve">vitals</command>
+    <result xml:space="preserve">Your current health is 1.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-107"/>
+    </children>
+  </item>
+  <item nodeId="node-107">
+    <command xml:space="preserve">ask the wicked witch about dogs</command>
+    <result xml:space="preserve">I don't care about things like that. She kicks you. (Your current health is now 0.)&#x000A;&#x000A;&#x000A;&#x000A;    *** The Wicked Witch didn't have the time to converse about things like that with you. She snapped your neck before eating you whole. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-108">
+    <command xml:space="preserve">attack Wicked Witch</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-109"/>
+    </children>
+  </item>
+  <item nodeId="node-109">
+    <command xml:space="preserve">tell the wicked witch hi</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-110"/>
+    </children>
+  </item>
+  <item nodeId="node-110">
+    <command xml:space="preserve">tell the wicked witch about dogs</command>
+    <result xml:space="preserve">and then..&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-111">
+    <command xml:space="preserve">tell the Wicked Witch about the witch's tea</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-112"/>
+    </children>
+  </item>
+  <item nodeId="node-112">
+    <command xml:space="preserve">attack the wicked witch</command>
+    <result xml:space="preserve">no.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-113">
+    <command xml:space="preserve">attack wicked witch</command>
+    <result xml:space="preserve">*** A sudden strength comes over you. Gold and white lights flood the room. You blink and wake up in your bedroom. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-114">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the Bronze Metal Door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-115"/>
+    </children>
+  </item>
+  <item nodeId="node-115">
+    <command xml:space="preserve">unlock bronze metal door</command>
+    <result xml:space="preserve">(with the Bronze Metal Door)&#x000A;(first taking the Bronze Metal Door)&#x000A;That's fixed in place.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-116"/>
+    </children>
+  </item>
+  <item nodeId="node-116">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the Bronze Metal Door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-117">
+    <command xml:space="preserve">ask the jester about what he is doing here</command>
+    <result xml:space="preserve">How would I know, I'm only a Jester.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-118"/>
+    </children>
+  </item>
+  <item nodeId="node-118">
+    <command xml:space="preserve">ask the jester about zeya</command>
+    <result xml:space="preserve">My creator?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-119"/>
+    </children>
+  </item>
+  <item nodeId="node-119">
+    <command xml:space="preserve">tell the Jester hi</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-120"/>
+    </children>
+  </item>
+  <item nodeId="node-120">
+    <command xml:space="preserve">tell</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-121"/>
+    </children>
+  </item>
+  <item nodeId="node-121">
+    <command xml:space="preserve">actions</command>
+    <result xml:space="preserve">Actions listing on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-122"/>
+    </children>
+  </item>
+  <item nodeId="node-122">
+    <command xml:space="preserve">ask</command>
+    <result xml:space="preserve">What do you want to ask the Jester for?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-123"/>
+    </children>
+  </item>
+  <item nodeId="node-123">
+    <command xml:space="preserve">tell the jester</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-124"/>
+    </children>
+  </item>
+  <item nodeId="node-124">
+    <command xml:space="preserve">tell the jester about dogs</command>
+    <result xml:space="preserve">[telling the Jester about "dogs"]&#x000A;[(1) asking the Jester about "dogs"]&#x000A;How would I know, I'm only a Jester.&#x000A;[(1) asking the Jester about "dogs" - succeeded]&#x000A;&#x000A;[telling the Jester about "dogs" - failed]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-125"/>
+    </children>
+  </item>
+  <item nodeId="node-125">
+    <command xml:space="preserve">tell the jester about zeya</command>
+    <result xml:space="preserve">[telling the Jester about "zeya"]&#x000A;[(1) asking the Jester about "zeya"]&#x000A;My creator?[(1) asking the Jester about "zeya" - succeeded]&#x000A;&#x000A;[telling the Jester about "zeya" - failed]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-126"/>
+    </children>
+  </item>
+  <item nodeId="node-126">
+    <command xml:space="preserve">ask the jester about zeya</command>
+    <result xml:space="preserve">[asking the Jester about "zeya"]&#x000A;My creator?[asking the Jester about "zeya" - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-127"/>
+    </children>
+  </item>
+  <item nodeId="node-127">
+    <command xml:space="preserve">tell the jester about zeya</command>
+    <result xml:space="preserve">[telling the Jester about "zeya"]&#x000A;[(1) asking the Jester about "zeya"]&#x000A;My creator?[(1) asking the Jester about "zeya" - succeeded]&#x000A;&#x000A;[telling the Jester about "zeya" - failed]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-128"/>
+    </children>
+  </item>
+  <item nodeId="node-128">
+    <command xml:space="preserve">tell the jester hi</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-129"/>
+    </children>
+  </item>
+  <item nodeId="node-129">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">[taking inventory]&#x000A;You are carrying nothing.&#x000A;&#x000A;[taking inventory - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-130"/>
+    </children>
+  </item>
+  <item nodeId="node-130">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">[going east]&#x000A;&#x000A;East Wing&#x000A;A rectangular room. Mostly a kitchen, consisting of a wood burning stove, sink, and lots of counterspace.&#x000A;&#x000A;You can see five apples, Intricate Bronze Key and a Paper Note here.&#x000A;&#x000A;[going east - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-131"/>
+    </children>
+  </item>
+  <item nodeId="node-131">
+    <command xml:space="preserve">take apple</command>
+    <result xml:space="preserve">[taking the apple]&#x000A;Taken.&#x000A;[taking the apple - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-132"/>
+    </children>
+  </item>
+  <item nodeId="node-132">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">[going west]&#x000A;&#x000A;Great Hall&#x000A;A long hall with two equally as long tables set on either side of a fire pit. The tables seem to be set as if there were guests to be present tonight. However, the firepit doesn't seem to have been used in ages.&#x000A;&#x000A;A door which seems to conceal a special room.&#x000A;&#x000A;You can also see a Jester here.&#x000A;&#x000A;[going west - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-133"/>
+    </children>
+  </item>
+  <item nodeId="node-133">
+    <command xml:space="preserve">give jester apple</command>
+    <result xml:space="preserve">[giving the apple to the Jester]&#x000A;The Jester doesn't seem interested.&#x000A;[giving the apple to the Jester - failed the block giving rule]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-155">
+    <command xml:space="preserve">talk to jester</command>
+    <result xml:space="preserve">The juster jumps at the sight of you.&#x000A;Dear me, I haven't seen another living soul here in DECADES. I'm Eugene. The Jester of the house. Welcome to Fort Granite, our humble abode. Here's ehh- the Jester leans in a little hint, between the two of us: using the command VITALS usually helps people. That's all.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-161"/>
+    </children>
+  </item>
+  <item nodeId="node-161">
+    <command xml:space="preserve">vitals</command>
+    <result xml:space="preserve">Your current health is 10.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-156">
+    <command xml:space="preserve">speak to jester</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-157"/>
+    </children>
+  </item>
+  <item nodeId="node-157">
+    <command xml:space="preserve">speak</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-158"/>
+    </children>
+  </item>
+  <item nodeId="node-158">
+    <command xml:space="preserve">talk to jester</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-159">
+    <command xml:space="preserve">talk to the Jester</command>
+    <result xml:space="preserve">Something&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-134">
+    <command xml:space="preserve">check health</command>
+    <result xml:space="preserve">Your current health is &#x000A;*** Run-time problem P31: Attempt to use a property of the 'nothing' non-object: property current health&#x000A;&#x000A;0&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-135">
+    <command xml:space="preserve">check health player</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-136">
+    <command xml:space="preserve">hp</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-137"/>
+    </children>
+  </item>
+  <item nodeId="node-137">
+    <command xml:space="preserve">HP</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-138"/>
+    </children>
+  </item>
+  <item nodeId="node-138">
+    <command xml:space="preserve">display</command>
+    <result xml:space="preserve">(yourself yourself)&#x000A;(first taking yourself)&#x000A;You are always self-possessed.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-139"/>
+    </children>
+  </item>
+  <item nodeId="node-139">
+    <command xml:space="preserve">show</command>
+    <result xml:space="preserve">(yourself yourself)&#x000A;(first taking yourself)&#x000A;You are always self-possessed.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-140"/>
+    </children>
+  </item>
+  <item nodeId="node-140">
+    <command xml:space="preserve">HP player</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-141"/>
+    </children>
+  </item>
+  <item nodeId="node-141">
+    <command xml:space="preserve">hp player</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-142"/>
+    </children>
+  </item>
+  <item nodeId="node-142">
+    <command xml:space="preserve">see</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-143"/>
+    </children>
+  </item>
+  <item nodeId="node-143">
+    <command xml:space="preserve">health</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-144">
+    <command xml:space="preserve">Health</command>
+    <result xml:space="preserve">Your current health is &#x000A;*** Run-time problem P31: Attempt to use a property of the 'nothing' non-object: property current health&#x000A;&#x000A;0.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-145">
+    <command xml:space="preserve">health</command>
+    <result xml:space="preserve">You must supply a noun.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-146"/>
+    </children>
+  </item>
+  <item nodeId="node-146">
+    <command xml:space="preserve">health player</command>
+    <result xml:space="preserve">I only understood you as far as wanting to health.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-147"/>
+    </children>
+  </item>
+  <item nodeId="node-147">
+    <command xml:space="preserve">health dog</command>
+    <result xml:space="preserve">I only understood you as far as wanting to health.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-148">
+    <command xml:space="preserve">health player</command>
+    <result xml:space="preserve">I only understood you as far as wanting to health.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-149"/>
+    </children>
+  </item>
+  <item nodeId="node-149">
+    <command xml:space="preserve">display current health</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-150">
+    <command xml:space="preserve">life</command>
+    <result xml:space="preserve">Your current health is 10.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-151">
+    <command xml:space="preserve">vitals</command>
+    <result xml:space="preserve">Your current health is 10.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-152"/>
+    </children>
+  </item>
+  <item nodeId="node-152">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Great Hall&#x000A;A long hall with two equally as long tables set on either side of a fire pit. The tables seem to be set as if there were guests to be present tonight. However, the firepit doesn't seem to have been used in ages.&#x000A;&#x000A;A door which seems to conceal a special room.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-153"/>
+    </children>
+  </item>
+  <item nodeId="node-153">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">East Wing&#x000A;A rectangular room. Mostly a kitchen, consisting of a wood burning stove, sink, and lots of counterspace.&#x000A;&#x000A;You can see five apples and Intricate Bronze Key here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-154"/>
+    </children>
+  </item>
+  <item nodeId="node-154">
+    <command xml:space="preserve">eat apple</command>
+    <result xml:space="preserve">(first taking the apple)&#x000A;Mm, crisp and refreshing. That made me feel better.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>
