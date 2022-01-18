@@ -1,4 +1,4 @@
-"A Walk in the Park" by Zeya
+"False Queen" by Zeya
 
 [RULES]
 
@@ -11,7 +11,7 @@ Understand "give [things] to [someone]" as giving it to.
 
 
 [COURTYARD]
-The Courtyard is a room. "[If The Courtyard is unvisited]You wake up in a daze. Where are you? The breeze is warm but there is something off about the air around you. There are beds of poorly maintained flowers. The grass is green, and the foliage is healthy, so there must be something keeping the plants alive. Moss grows over the stone steps that lead north to a small castle- perhaps one may even call it a large watchtower? You feel inclined to go inside.[END IF][If The Courtyard is visited] Overgrown flowers and mossy stone steps. Nothing too outdone.[END IF]"
+The Courtyard is a room. "[If The Courtyard is unvisited]You wake up in a daze. The breeze is warm but there is something off about the air around you. Moss grows over the stone steps that lead north to a small castle. Isn't this the castle you read about in the paper- the one that people have gone missing in?[END IF][If The Courtyard is visited] Overgrown flowers and mossy stone steps. Nothing too outdone.[END IF]"
 
 
 [GREAT HALL]
@@ -21,13 +21,13 @@ The Jester is a person in the Great Hall.
 
 
 [THRONE ROOM]
-The Throne Room is a room. "An immense marble room with stained glass windows. A room too large to make sense from the outside. All colors of light cascade around the room. In the very back is a black velvet throne."
+The Throne Room is a room. "[If the Throne Room is unvisited]An immense marble room with stained glass windows. A room too large to make sense from the outside. All colors of light cascade around the room. A sudden sharp pain runs down your spine when you realize human bones scatter the room.[END IF][If the Throne Room is visited]The witches den. She sits on her black velvet throne and watches you intsensly.[END IF]"
 
 The Wicked Witch is a person in the Throne Room. 
 
 
 [EAST WING]
-The East Wing is a room. "A rectangular room. Mostly just a kitchen with a window looking out to the courtyard."
+The East Wing is a room. "[If the East Wing is unvisited]A poorly maintained kitchenette smelling of some pungent odor. Something about this room makes you uneasy. It seems like someone was here, looking for a way out. There are no other ways to go except back into the Great Hall.[END IF][If the East Wing is visited]A rectangular room. Mostly just a kitchen with a window looking out to the courtyard.[END IF]"
 
 A wooden cupboard is a container. A wooden cupboard is opaque. A wooden cupboard is closed. A wooden cupboard is openable. A wooden cupboard is in the east wing. The wooden cupboard is fixed in place. The description of the wooden cupboard is "It seems knawed on at the corners.[If the Throne Room is unvisited] Perhaps the only signs of life besides the jester in this castle."
 
@@ -48,13 +48,15 @@ The plural of poisonous potato is poisonous potatoes. A poisonous potato is a ki
 After eating poisonous potato:
 	if the current health of the player is 2:
 		end the story saying "You fool, the potato was poisonous.";
+	if the current health of the player is 1:
+		end the story saying "You fool, the potato was poisonous.";
 	decrease the current health of the player by 2;
 	say "BLEGH! Why would I do that!? (Your current health is now [current health of player].)".
 	
 A wooden sword is in the wooden cupboard.
 
 Intricate Bronze Key is in The East Wing. The description of Intricate Bronze Key is "Weighted, and crested with fine jewels."
-A Paper Note is a thing. A Paper Note is in The East Wing. The printing of the Paper Note is "Rid of the witch. Take the key and READ the Scarlett Book in the room to the WEST of the castle. and don't forget to keep an eye on your VITALS.' PS: don't be shy, try asking the people in the castle about things-". The description of the Paper Note is "The handwriting is barely legible. It looks like whoever wrote it was in a rush."
+A Paper Note is a thing. A Paper Note is in The East Wing. The printing of the Paper Note is "Rid of the witch. Take the key and read the Scarlett Book in the room on the West side of the castle. and don't forget to keep an eye on your VITALS. PS: don't be shy, try talking to people or even asking them about things-". The description of the Paper Note is "The handwriting is barely legible. It looks like whoever wrote it was in a rush."
 
 
 [SECRET ROOM]
@@ -138,9 +140,12 @@ Understand "talk to [someone]" as talking.
 Talking is an action applying to one thing.
 Check talking:
 	if the noun is not a person:
-		say "[The noun] wouldn't understand you.";
+		say "[The noun] wouldn't understand you.".
+Carry out talking:
 	if the noun is the Jester:
-		say "[one of][italic type]The juster jumps at the sight of you.[line break][roman type]Dear me, I haven't seen another living soul here in DECADES. I'm Eugene. The Jester of the house. Welcome to Fort Granite, our humble abode. Here's ehh- [italic type]*the Jester leans in*[roman type] a little hint, between the two of us: using the command VITALS usually helps people. That's all.[or]Hmm.. you're not awake, are you?[or]Watch your tone in the Throne Room- the lady has been in a real mood recently. Watched her eat a man whole. [italic type]He laughs nervously.[roman type][or]I heard someone say something recently... VITALS, was it? It must have helped him examine some aspect of himself.[in random order]".
+		say "[one of][italic type]The jester jumps at the sight of you.[line break][roman type]Dear me, I haven't seen another living soul here in DECADES. I'm Eugene. The Jester of the house. Welcome to Fort Granite, our humble abode. Here's ehh- [italic type]*the Jester leans in*[roman type] a little hint, between the two of us: using the command VITALS usually helps people. That's all.[or]Hmm.. you're not awake, are you?[or]Watch your tone in the Throne Room- the lady has been in a real mood recently. Watched her eat a man whole. [italic type]He laughs nervously.[roman type][line break][or]I heard someone say something recently... VITALS, was it? It must have helped him examine some aspect of himself.[or]Well don't just stand there, ask me about something.[in random order]";
+	if the noun is the Wicked Witch:
+		say "[one of]Sometimes it get a little lonely... Just kidding HAH HAH![or]Oh? EUGENE! HAVE YOU SEEN THIS!? It seems another snack has wandered into the castle.[or]If you came here thinking you could get rid of me, well.. you're wrong.[or]Hmm I'm bored.. Let's play a game. Ask me about something.[or]Have you tried checking VITALS? I hear mortals use that one a lot... Shame you don't have real magic.[or]Don't worry, I won't eat you.. Unless you do something that would make me want to.[italic type] She snarles and laughs horrificly.[roman type][line break][in random order]".
 		
 [NEW COMMAND: READING]
 A thing has some text called printing. The printing of a thing is usually "blank". 
